@@ -1,0 +1,85 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.apple.devpubs.example",
+    "serialNumber": "p69f2J",
+    "teamIdentifier": "A93A5CM278",
+    "webServiceURL": "https://example.com/passes/",
+    "authenticationToken": "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+    "barcode": {
+        "message": "123456789",
+        "format": "PKBarcodeFormatPDF417",
+        "messageEncoding": "iso-8859-1"
+    },
+    "organizationName": "Supabase Contributor",
+    "description": "Supabase Contributor",
+    "logoText": "Supabase Contributor",
+    "foregroundColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(17, 24, 28)",
+    "labelColor": "rgb(255, 255, 255)",
+    "generic": {
+        "headerFields": [
+            {
+                "key": "tier",
+                "label": "Level",
+                "value": "Newcomer",
+                "changeMessage": "Level updated to: %@"
+            }
+        ],
+        "primaryFields": [
+            {
+                "key": "memberName",
+                "label": "Contributor",
+                "value": "Adrien ADV"
+            }
+        ],
+        "secondaryFields": [
+            {
+                "key": "prsCreated",
+                "label": "PRs Created",
+                "value": 10,
+                "numberStyle": "PKNumberStyleDecimal",
+                "changeMessage": "PRs Created: %@"
+            },
+            {
+                "key": "prsMerged",
+                "label": "PRs Merged",
+                "value": 8,
+                "numberStyle": "PKNumberStyleDecimal",
+                "changeMessage": "PRs Merged: %@"
+            }
+        ],
+        "auxiliaryFields": [
+            {
+                "key": "issuesOpen",
+                "label": "Open Issues",
+                "value": 3,
+                "numberStyle": "PKNumberStyleDecimal",
+                "changeMessage": "Open Issues: %@"
+            },
+            {
+                "key": "totalContributions",
+                "label": "Total Contributions",
+                "value": 21,
+                "numberStyle": "PKNumberStyleDecimal",
+                "changeMessage": "Total Contributions: %@"
+            }
+        ],
+        "backFields": [
+            {
+                "key": "project",
+                "label": "Project",
+                "value": "supapass.me"
+            },
+            {
+                "key": "githubHandle",
+                "label": "Made by",
+                "value": "@AdrienADV"
+            },
+            {
+                "key": "notes",
+                "label": "Notes",
+                "value": "This pass updates as your GitHub stats change."
+            }
+        ]
+    }
+}
